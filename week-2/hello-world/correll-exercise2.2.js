@@ -13,10 +13,10 @@ app.use(function(request, response) {
    console.log("In comes a request to: " + request.url);
 
 
-   response.end("Hello World \n");
+   response.end("Hello World! \n");
 
 
-})
+});
 
 
 http.createServer(app).listen(8080, function(){
