@@ -1,0 +1,8 @@
+{
+    "name": "routes",
+    "author": "Ashlee Correll",
+    "private": true,
+    "dependencies": {
+        "express": "^4.16.2"
+    }
+}
