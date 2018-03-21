@@ -1,3 +1,15 @@
+/*
+Title: Assignment 4.3
+
+Author: Richard Krasso
+
+Date: 20 March 2018
+
+Modified by: Ashlee Correll
+
+Description: Exercise to learn about status codes.
+*/
+
 var express = require("express");
 var http = require("http");
 var app = express();
