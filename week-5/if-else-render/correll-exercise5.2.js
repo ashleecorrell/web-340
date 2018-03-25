@@ -1,3 +1,16 @@
+
+/*
+Title: Assignment 5.2
+
+Author: Richard Krasso
+
+Date: 24 March 2018
+
+Modified by: Ashlee Correll
+
+Description: Exercise to learn about ejs templates.
+*/
+
 //require statements
 var express = require("express");
 var http = require("http");
@@ -17,13 +30,13 @@ var n = [
     "Peter",
     "Lonnie",
 ];
-
+//create get function
 app.get("/",function(request,response){
     response.render("index",{
         names:n
     })
 });
-
+//create a server to listen
 http.createServer(app).listen(8093,function(){
     console.log("Application started on port 8093!");
 });
